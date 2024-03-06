@@ -19,7 +19,7 @@ const ToDoHeader = () => {
     }
 
     const handleAddRecord = () => {
-        if (newRecord.trim().length <= MIN_AMOUNT || newRecord.trim().length > MAX_AMOUNT) {
+        if (newRecord.trim().length < MIN_AMOUNT || newRecord.trim().length > MAX_AMOUNT) {
             setError(`Record length must be between ${MIN_AMOUNT} and ${MAX_AMOUNT} characters.`);
             return;
         }
@@ -48,7 +48,10 @@ const ToDoHeader = () => {
                 fullWidth
                 value={newRecord}
                 onChange={(e) => handleInputChange(e.target.value)}
-                style={{ borderColor: error ? 'red' : 'initial' }}
+                style={{
+                    borderColor: error ? 'red' : 'initial',
+                    height: 80,
+                }}
                 label="Add Task"
                 variant="outlined"
                 error={!!error}

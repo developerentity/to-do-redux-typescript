@@ -24,7 +24,7 @@ const FilterSelect = () => {
     };
 
     return (
-        <Box mt={1} display={'flex'} justifyContent={'flex-end'}>
+        <Box display={'flex'} justifyContent={'flex-end'}>
             <Select
                 size="small"
                 sx={{ width: 150, textTransform: 'capitalize' }}
