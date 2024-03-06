@@ -2745,6 +2745,11 @@
     "@webassemblyjs/ast" "1.11.6"
     "@xtuc/long" "4.2.2"
 
+"@wemake-services/eslint-config-typescript@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@wemake-services/eslint-config-typescript/-/eslint-config-typescript-3.1.1.tgz#2da59e3d2e332ad4f551142a475f397837594d6b"
+  integrity sha512-+ScorOh0RJ93WUV51Gg8Fg6AFUqP4bb+/agLc+zKJQUILd1ZqNJPb8rJpo0Wi4FjqAPlxBu+uarGKhHbSoonwA==
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@xtuc/ieee754/-/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"

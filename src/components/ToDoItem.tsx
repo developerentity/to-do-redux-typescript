@@ -27,10 +27,7 @@ const ToDoItem = ({ record }: { record: Record }) => {
                     justifyContent: 'space-between',
                     padding: '0 10px',
                     cursor: 'pointer',
-                    '&:hover': {
-                        background: "#FFB546",
-
-                    }
+                    '&:hover': { background: "#FFB546" }
                 }}>
                 <CardContent>
                     <Typography
